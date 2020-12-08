@@ -60,6 +60,8 @@ main(int argc, char **argv)
 		history[i++] = n;
 	}
 
+	free(buffer);
+
 	printf("%u\n%u\n", part1, part2);
 
 	return 0;
