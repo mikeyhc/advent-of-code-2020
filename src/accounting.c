@@ -64,5 +64,8 @@ main(int argc, char **argv)
 
 	printf("%u\n%u\n", part1, part2);
 
+	if (input != stdin)
+		fclose(input);
+
 	return 0;
 }

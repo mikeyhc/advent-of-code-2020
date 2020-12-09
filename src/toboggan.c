@@ -60,6 +60,11 @@ main(int argc, char **argv)
 	if (argc > 1)
 		input = fopen(argv[1], "r");
 
+	if (input == NULL) {
+		perror("failure opening input file");
+		return -1;
+	}
+
 	while (getline(&buffer, &len, input) > 0) {
 		to_password(buffer, &password);
 		if (valid_password(&password))
@@ -70,6 +75,9 @@ main(int argc, char **argv)
 
 	free(buffer);
 	printf("%d\n%d\n", valid1, valid2);
+
+	if (input != stdin)
+		fclose(input);
 
 	return 0;
 }

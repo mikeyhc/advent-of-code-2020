@@ -1,4 +1,4 @@
-PROJECTS = accounting toboggan
+PROJECTS = accounting toboggan slope
 OUTDIR = output
 OUTPUT = $(PROJECTS:%=$(OUTDIR)/%)
 
