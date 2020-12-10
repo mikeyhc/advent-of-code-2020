@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#define _POSIX_C_SOURCE 200809L
+
 #define SEATSIZE (128 * 8)
 
 static unsigned

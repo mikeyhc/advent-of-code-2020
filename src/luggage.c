@@ -3,6 +3,8 @@
 #include <stdlib.h>
 #include <string.h>
 
+#define _POSIX_C_SOURCE 200809L
+
 #define BAGLEN 32
 #define RULESLEN 8
 #define TOTALBAGS 1024
