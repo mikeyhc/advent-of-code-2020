@@ -7,3 +7,4 @@
 * [day 3 - slope](src/slope.c)
 * [day 4 - passport](src/passport.c)
 * [day 5 - boarding](src/boarding.c)
+* [day 6 - customs](src/customs.c)

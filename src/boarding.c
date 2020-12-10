@@ -57,6 +57,8 @@ main(int argc, char **argv)
 			highest_seatid = seatid;
 	}
 
+	free(line);
+
 	printf("%d\n", highest_seatid);
 
 	for (i = 1; i < SEATSIZE; ++i) {
