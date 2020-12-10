@@ -1,4 +1,5 @@
-PROJECTS = accounting toboggan slope passport boarding customs luggage
+PROJECTS = accounting toboggan slope passport boarding customs luggage \
+	   handheld
 OUTDIR = output
 OUTPUT = $(PROJECTS:%=$(OUTDIR)/%)
 
