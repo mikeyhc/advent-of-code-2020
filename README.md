@@ -8,3 +8,4 @@
 * [day 4 - passport](src/passport.c)
 * [day 5 - boarding](src/boarding.c)
 * [day 6 - customs](src/customs.c)
+* [day 7 - luggage](src/luggage.c)
