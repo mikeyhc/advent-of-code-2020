@@ -10,3 +10,4 @@
 * [day 6 - customs](src/customs.c)
 * [day 7 - luggage](src/luggage.c)
 * [day 8 - handheld](src/handheld.c)
+* [day 9 - xmas](src/xmas.c)
