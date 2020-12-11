@@ -2,8 +2,9 @@
 #include <stdlib.h>
 #include <math.h>
 
-#define JOLTMAX 256
 #define _POSIX_C_SOURCE 200809L
+
+#define JOLTMAX 256
 
 int
 main(int argc, char **argv)
