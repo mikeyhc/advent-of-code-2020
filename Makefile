@@ -1,9 +1,12 @@
 PROJECTS = accounting toboggan slope passport boarding customs luggage \
-	   handheld xmas
+	   handheld xmas jolts
 OUTDIR = output
 OUTPUT = $(PROJECTS:%=$(OUTDIR)/%)
 
 all: $(OUTDIR) $(OUTPUT)
+
+output/jolts: src/jolts.c
+	$(CC) -o $@ -Wall -Wextra -pedantic -lm -g $^
 
 output/%: src/%.c
 	$(CC) -o $@ -Wall -Wextra -pedantic -g $^

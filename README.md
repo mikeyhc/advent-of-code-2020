@@ -11,3 +11,4 @@
 * [day 7 - luggage](src/luggage.c)
 * [day 8 - handheld](src/handheld.c)
 * [day 9 - xmas](src/xmas.c)
+* [day 10 - jolts](src/jolts.c)
