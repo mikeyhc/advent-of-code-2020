@@ -14,3 +14,4 @@
 * [day 10 - jolts](src/jolts.c)
 * [day 11 - ferry](src/ferry.c)
 * [day 12 - navigation](src/navigation.c)
+* [day 13 - schedule](src/schedule.c)

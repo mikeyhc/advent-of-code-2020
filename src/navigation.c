@@ -3,7 +3,6 @@
 
 #define _POSIX_C_SOURCE 200809L
 
-
 typedef struct {
 	char direction;
 	int ns, ew;
