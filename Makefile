@@ -5,9 +5,6 @@ OUTPUT = $(PROJECTS:%=$(OUTDIR)/%)
 
 all: $(OUTDIR) $(OUTPUT)
 
-output/jolts: src/jolts.c
-	$(CC) -o $@ -Wall -Wextra -pedantic -lm -g $^
-
 output/%: src/%.c
 	$(CC) -o $@ -Wall -Wextra -pedantic -g $^
 

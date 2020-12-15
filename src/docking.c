@@ -176,7 +176,6 @@ node_free(Node *n)
 	}
 }
 
-
 int
 main(int argc, char **argv)
 {
