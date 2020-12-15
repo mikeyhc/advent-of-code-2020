@@ -80,8 +80,6 @@ main(int argc, char **argv)
 		}
 	}
 
-
-
 	free(line);
 	if (input != stdin)
 		fclose(input);

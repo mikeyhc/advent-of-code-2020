@@ -15,3 +15,4 @@
 * [day 11 - ferry](src/ferry.c)
 * [day 12 - navigation](src/navigation.c)
 * [day 13 - schedule](src/schedule.c)
+* [day 14 - docking](src/docking.c)

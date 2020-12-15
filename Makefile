@@ -1,5 +1,5 @@
 PROJECTS = accounting toboggan slope passport boarding customs luggage \
-	   handheld xmas jolts ferry navigation schedule
+	   handheld xmas jolts ferry navigation schedule docking
 OUTDIR = output
 OUTPUT = $(PROJECTS:%=$(OUTDIR)/%)
 
