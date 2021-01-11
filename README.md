@@ -19,3 +19,4 @@
 * [day 15 - memory](src/memory.c)
 * [day 16 - ticket](src/ticket.c)
 * [day 17 - conway](src/conway.c)
+* [day 18 - homework](src/homework.c)
